@@ -1,0 +1,77 @@
+﻿--------------------
+Receptsamling
+Created by: Fredrik Andreasson
+--------------------
+
+v0.4
+--------------------
+Reading AND writing to the database-file is working correctly.
+Recipes are seperated by newlines and each piece of a recipe is separated by commas.
+--------------------
+
+v0.3.1
+--------------------
+The application will now read the file "receptlista" (from one directory above) upon start.
+If the file doesn't exist, it will be created in a new directory "Receptsamling" one step above it.
+This function currently serves no purpose, as the program currently doesn't handle the data in any way.
+--------------------
+
+v0.3
+--------------------
+Changing already existing recipes now working!
+
+Moved piece of code to more relevant areas. Program unaffected.
+--------------------
+
+v0.2.4
+--------------------
+Added a missing bit of code that caused the program to crash if you pressed "Ta Bort" with no items in the list.
+
+Base code added for changing an already existing recipe. Button disabled as it currently doesn't work.
+
+Changed a lot of code to be more logical. Program itself is unaffected.
+--------------------
+
+v0.2.3
+--------------------
+Fixed so that the list of ingredients and the "How To" box doesn't stack different data after each other
+when switching between recipes.
+--------------------
+
+v0.2.2
+--------------------
+Clicking on the contents of a cell now properly shows all related data in the view to the right.
+--------------------
+
+v0.2.1
+--------------------
+Changed the singleline textbox for ingredients to a multiline textbox instead.
+Ingredients are now separated by 'Enter' rather than commas.
+
+Fixed the Grid so that the cells are always at their max width and can't be resized.
+You can, however, change how much of each cell you want to see.
+
+Disabled cell editing through clicking or hitting F2.
+Editing individual recipes can only be done through the "Ändra" button (NYI).
+--------------------
+
+v0.2
+--------------------
+Remove recipe button now working.
+Select the recipe you want to remove from the view and click the "Ta Bort" button.
+--------------------
+
+v0.1.1
+--------------------
+Adding recipes and making them appear in the DataGrid now works, but they don't save.
+--------------------
+
+v0.1
+--------------------
+The main form was created. No coding attached yet.
+--------------------
+
+v0.0.1
+--------------------
+Project Started
+--------------------
